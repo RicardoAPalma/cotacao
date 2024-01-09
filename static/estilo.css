@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    
+    background-color: var(--cor0);
+    --cor0:#37448C;
+    --cor1:#54ACBF;
+    --cor2:#F2F2F2;
+    --cor3:#C4D4F2;
+    --cor4:#202E59;
+}
+
+h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 80px;
+    padding: 50px;
+    text-align: center;
+    color: #54ACBF;
+}
+
+.div-principal{
+
+    margin:  40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div1{
+
+    border-radius: 10px;
+    text-align: center;
+    background-color:#202E59;
+    margin: 30px;
+    padding: 100px;
+    border: 1px solid #54ACBF;
+    transition: 300ms linear;
+    
+
+}
+
+
+.div2{
+
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    padding: 100px;
+    border: 1px solid #54ACBF;
+    background-color:#202E59;
+    transition: 300ms linear;
+}
+
+
+.div3{
+    
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    padding: 100px;
+    border: 1px solid #54ACBF;
+    background-color:#202E59;
+    transition: 300ms linear;
+}
+
+.texto-div{
+
+    font-family: 'Rajdhani', sans-serif;
+    padding: 30px;
+    background-color:#202E59;
+    padding: 10px;
+    font-size: 30px;
+    color: var(--cor2);
+}
+
+
+
+.cotacao-div {
+
+    color: #54ACBF;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 30px;
+    background-color:#202E59;
+    font-size: 20px;
+    
+}
+
